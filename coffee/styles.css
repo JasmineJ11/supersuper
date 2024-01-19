@@ -88,12 +88,15 @@ footer{
 
 }
 
-
+.eca{
+    margin-left: 10px
+}
 
 .linkMethod2 {
 
     height: 30px;
     width: 30px;
+    margin-right: 5px;
     position: relative;
 
 }
