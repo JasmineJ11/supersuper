@@ -103,15 +103,24 @@ footer{
 
 footer{
 
-
-    height: 100vh;
-    max-height: 200px;
+    height: 200px;
+    position: relative;
 
 }
 
 @media  (max-width: 768px){
     footer{
-        max-height: 500px;
+        height: 500px;
         padding-top: 10px;
+
     }
 }
+
+@media (min-height: 900px){
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+
