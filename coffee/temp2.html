@@ -7,6 +7,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3743480f3c.js" crossorigin="anonymous"></script>
     <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #173D3F;
+            color:white;
+        }
         footer{
             color: #003e40;
             background-color: #E8CCB0;
@@ -53,18 +58,97 @@
             line-height: 15px;
             text-align: center;
         }
+        .eca{
+            margin-left: 10px
+        }
+
+        .linkMethod2 {
+
+            height: 30px;
+            width: 30px;
+            margin-right: 5px;
+            position: relative;
+
+        }
+        .linkMethod2:hover{
+            background-color: white;
+        }
+        .nav {
+
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            margin: 0 3em;
+        }
+
+        nav a {
+            margin: 0 3em;
+        }
+
+        nav a,
+        .button a,
+        .button2 a,
+        .end1 a,
+        .end2 a,
+        .end3 a {
+            text-decoration: none;
+            color: #003e40;
+        }
+
+
+        .words{
+            font-size: 36px;
+            font-weight: 900;
+        }
+
+        button {
+            background-color:#e8ccb0 ;
+            color: #003e40;
+            padding: 10px 15px;
+            border-radius: 10px;
+            line-height: 1;
+            font-weight: 700;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        .linkMethod {
+            background-color: #A25C2E;
+            height: 47px;
+            width: 47px;
+            position: relative;
+
+        }
+        .linkMethod:hover{
+            background-color: white;
+
+        }
+        .icon2{
+            color: white;
+        }
+        .linkMethod:hover .icon2{
+            color: #A25C2E;
+        }
+
     </style>
 </head>
 <body style="background-color: #173D3F">
 <div class="page">
     <header style="">
-        <nav class="d-flex justify-content-around align-items-center" style="color: #003e40;background-color: #E8CCB0">
-            <div class="logo"><img src="images/2-e1694169123116.png" alt="logo"></div>
-            <div class="d-flex justify-content-center">
-                <div class="p-2">Item1</div><div class="p-2">Item2</div><div class="p-2">Item3</div>
-            </div>
-            <div class="buy"><i class="fa-solid fa-cart-shopping icon" style="font-size: 24px;position: relative;padding: 5px"></i></div>
-        </nav>
+        <div class="container-fluid d-flex justify-content-center" style="color: #003e40;background-color: #E8CCB0;">
+            <nav class="d-flex justify-content-round align-items-center" style="max-width: 1600px;height: 100px">
+                <div class="logo"><img src="images/2-e1694169123116.png" alt="logo"></div>
+
+                <nav class="nav d-flex justify-content-center">
+                    <div class="p-2"><a href="#home" class="link">Home</a></div>
+                    <div class="p-2"><a href="#menu" class="link">Menu</a></div>
+                    <div class="p-2"><a href="#about Us" class="link">About Us</a></div>
+                    <div class="p-2"><a href="#contact" class="link">Contact</a></div>
+                </nav>
+
+                <button class="button"><a href="#" class="link">Buy Now</a></button>
+            </nav>
+        </div>
     </header>
 
 
