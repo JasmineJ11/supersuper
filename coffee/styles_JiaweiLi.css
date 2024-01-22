@@ -1,18 +1,8 @@
-.part1 {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #E8CCB0;
-    padding: 1em;
-    height: 100px;
-}
 
-.head {
-    width: 300px;
-    padding-left: 40px;
-    line-height: 100px;
-    flex: 1;
+.header {
+   background-color: #E8CCB0;
+
 }
 
 .nav {
@@ -20,7 +10,6 @@
     display: flex;
     align-items: center;
     font-weight: 700;
-    flex: 2;
     margin: 0 3em;
 }
 
@@ -35,7 +24,7 @@ nav a,
 .end2 a,
 .end3 a {
     text-decoration: none;
-    color: #003e40;
+    color: #d9e8e8;
 }
 body{
     font-family: Arial, sans-serif;
